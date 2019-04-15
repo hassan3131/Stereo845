@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".rap">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="159dp"
+        android:layout_marginLeft="159dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginBottom="191dp"
+        android:text="Rap"
+        android:textColor="#0000FF"
+        android:textSize="24sp"
+        app:fontFamily="sans-serif-condensed"
+        app:layout_constraintBottom_toTopOf="@+id/angry_btn"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/angry_btn1"
+
+        android:layout_width="188dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="122dp"
+        android:background="@drawable/user6"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="User 6"
+        android:textColor="#F9DBFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <Button
+        android:id="@+id/angry_btn2"
+
+        android:layout_width="188dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="201dp"
+        android:background="@drawable/user6"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="User 10"
+        android:textColor="#F9DBFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/angry_btn" />
+
+    <Button
+        android:id="@+id/angry_btn"
+
+        android:layout_width="188dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="43dp"
+        android:background="@drawable/user6"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="User 7"
+        android:textColor="#F9DBFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/angry_btn2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+    android:background="@drawable/user6"
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="83dp"
+        android:text="Matches"
+        android:textColor="#0000FF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    // app:layout_constraintStart_toStartOf="@+id/button18"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:layout_editor_absoluteX="37dp"
+    tools:layout_editor_absoluteY="80dp" />
+
+</android.support.constraint.ConstraintLayout>
